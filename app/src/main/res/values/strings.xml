@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">scobie-HabitTracker</string>
+    <string name="AddHabit">Add Habit</string>
+</resources>
