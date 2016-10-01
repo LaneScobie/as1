@@ -1777,12 +1777,15 @@ containing a value of this type.
     public static final class id {
         public static final int AddHabitTextInput=0x7f0b0058;
         public static final int AddHabitTextView=0x7f0b0057;
+        public static final int AddMenuButton=0x7f0b0056;
         public static final int CompleteButton=0x7f0b0064;
         public static final int DeleteButton=0x7f0b0066;
         public static final int EditButton=0x7f0b0065;
         public static final int EditHabitTextView=0x7f0b0061;
         public static final int FCheckBox=0x7f0b005e;
         public static final int FinishAddButton=0x7f0b0059;
+        public static final int HabitRecordListView=0x7f0b0069;
+        public static final int HabitRecordTextView=0x7f0b0068;
         public static final int Habits=0x7f0b0054;
         public static final int MCheckBox=0x7f0b005a;
         public static final int RCheckBox=0x7f0b005d;
@@ -1812,7 +1815,6 @@ containing a value of this type.
         public static final int always=0x7f0b001d;
         public static final int beginning=0x7f0b001a;
         public static final int bottom=0x7f0b0022;
-        public static final int button=0x7f0b0056;
         public static final int buttonPanel=0x7f0b002e;
         public static final int cancel_action=0x7f0b006b;
         public static final int checkbox=0x7f0b003c;
@@ -1841,7 +1843,6 @@ containing a value of this type.
         public static final int line1=0x7f0b006f;
         public static final int line3=0x7f0b0073;
         public static final int listMode=0x7f0b0009;
-        public static final int listView=0x7f0b0069;
         public static final int list_item=0x7f0b002b;
         public static final int media_actions=0x7f0b006d;
         public static final int middle=0x7f0b001c;
@@ -1884,7 +1885,6 @@ containing a value of this type.
         public static final int text=0x7f0b0074;
         public static final int text2=0x7f0b0072;
         public static final int textSpacerNoButtons=0x7f0b0037;
-        public static final int textView2=0x7f0b0068;
         public static final int time=0x7f0b0070;
         public static final int title=0x7f0b002d;
         public static final int title_template=0x7f0b0032;
@@ -1984,18 +1984,25 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int add_habit=0x7f060022;
         public static final int app_name=0x7f060023;
-        public static final int edit_habit=0x7f060024;
-        public static final int finish=0x7f060025;
-        public static final int finishEdit=0x7f060026;
-        public static final int friday=0x7f060027;
-        public static final int monday=0x7f060028;
-        public static final int saturday=0x7f060029;
+        public static final int complete=0x7f060024;
+        public static final int delete=0x7f060025;
+        public static final int edit=0x7f060026;
+        public static final int edit_habit=0x7f060027;
+        public static final int finish=0x7f060028;
+        public static final int finishEdit=0x7f060029;
+        public static final int friday=0x7f06002a;
+        public static final int habit_record=0x7f06002b;
+        public static final int habitname=0x7f06002c;
+        public static final int habits=0x7f06002d;
+        public static final int monday=0x7f06002e;
+        public static final int record=0x7f06002f;
+        public static final int saturday=0x7f060030;
         public static final int search_menu_title=0x7f060013;
         public static final int status_bar_notification_info_overflow=0x7f060014;
-        public static final int sunday=0x7f06002a;
-        public static final int thursday=0x7f06002b;
-        public static final int tuesday=0x7f06002c;
-        public static final int wednesday=0x7f06002d;
+        public static final int sunday=0x7f060031;
+        public static final int thursday=0x7f060032;
+        public static final int tuesday=0x7f060033;
+        public static final int wednesday=0x7f060034;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08008a;
