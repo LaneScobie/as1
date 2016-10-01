@@ -9,34 +9,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Habitname"
-        android:id="@+id/textView"
+        android:text="@string/habitname"
+        android:id="@+id/habitNametextView"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
-        android:textSize="45dp"
+        android:textSize="45sp"
         android:layout_weight="0.23" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="399dp"
         android:layout_height="wrap_content"
-        android:text="Edit"
-        android:id="@+id/button2"
-        android:layout_weight="0.25"
-        android:textSize="20dp" />
+        android:text="@string/complete"
+        android:id="@+id/CompleteButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Delete"
-        android:id="@+id/button3"
-        android:layout_weight="0.25"
-        android:textSize="20dp" />
+        android:text="@string/edit"
+        android:id="@+id/EditButton"
+        android:layout_weight="0.17"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Records"
-        android:id="@+id/button4"
-        android:layout_weight="0.25"
-        android:textSize="20dp" />
+        android:text="@string/delete"
+        android:id="@+id/DeleteButton"
+        android:layout_weight="0.19"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record"
+        android:id="@+id/RecordAccessButton"
+        android:layout_weight="0.20"
+        android:textSize="20sp" />
 </LinearLayout>

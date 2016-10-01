@@ -9,8 +9,8 @@
         android:id="@+id/Habits"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Habits"
-        android:textSize="30dp" />
+        android:text="@string/habits"
+        android:textSize="30sp" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/AddHabit"
-        android:id="@+id/button"
+        android:id="@+id/AddMenuButton"
         android:textAlignment="center"
         android:layout_weight="0.22" />
 

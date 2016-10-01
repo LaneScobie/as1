@@ -1,158 +1,174 @@
 [
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/habit_menu.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/habit_menu.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/habit_record.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/habit_record.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_time.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_media.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/activity_main_habit.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/src/main/res/layout/activity_main_habit.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_lines.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_view.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_dialog_title_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_item_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/add_habit.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/add_habit.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_cancel_action.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/activity_main_habit.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/activity_main_habit.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_action.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/edit_habit.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/edit_habit.xml"
     },
     {
-        "merged": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/afs/ualberta.ca/home/s/c/scobie/Desktop/HabitTracker2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_cancel_action.xml"
     }
 ]

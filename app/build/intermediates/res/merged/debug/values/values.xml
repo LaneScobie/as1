@@ -198,6 +198,7 @@
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="AddHabit">Add Habit</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -229,9 +230,20 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">HabitTracker</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="app_name">scobie-HabitTracker</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="finish">Finish</string>
+    <string name="finishEdit">Finish</string>
+    <string name="friday">Friday</string>
+    <string name="monday">Monday</string>
+    <string name="saturday">Saturday</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sunday">Sunday</string>
+    <string name="thursday">Thursday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

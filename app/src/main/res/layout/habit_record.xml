@@ -8,17 +8,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Habit Record"
-        android:id="@+id/textView2"
+        android:text="@string/habit_record"
+        android:id="@+id/HabitRecordTextView"
         android:layout_gravity="center_horizontal"
-        android:textSize="45dp"
+        android:textSize="45sp"
         android:textIsSelectable="false"
         android:textAlignment="center" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
+        android:id="@+id/HabitRecordListView"
         android:layout_gravity="center_horizontal"
         android:clickable="true" />
 
