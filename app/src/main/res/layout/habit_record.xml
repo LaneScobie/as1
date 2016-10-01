@@ -15,6 +15,22 @@
         android:textIsSelectable="false"
         android:textAlignment="center" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/count"
+        android:id="@+id/countText"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="381dp"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dates_completed"
+        android:id="@+id/dateCompletedText"
+        android:textSize="25sp" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

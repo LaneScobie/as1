@@ -52,10 +52,6 @@
         "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/habit_menu.xml",
-        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/habit_menu.xml"
-    },
-    {
         "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
@@ -146,10 +142,6 @@
     {
         "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/edit_habit.xml",
-        "source": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/res/layout/edit_habit.xml"
     },
     {
         "merged": "/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",

@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.scobie.habittracker.AddHabitActivity"
+            android:label="@string/add_habit" >
+        </activity>
     </application>
 
 </manifest>

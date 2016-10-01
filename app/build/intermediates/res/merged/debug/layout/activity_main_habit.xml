@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:clickable="true">
 
     <TextView
         android:id="@+id/Habits"
@@ -13,11 +14,12 @@
         android:textSize="30sp" />
 
     <ListView
-        android:layout_width="wrap_content"
+        android:layout_width="377dp"
         android:layout_height="314dp"
-        android:id="@+id/habitList"
+        android:id="@+id/oldHabitList"
         android:layout_weight="0.77"
-        android:clickable="true" />
+        android:clickable="true"
+        android:longClickable="false" />
 
     <Button
         android:layout_width="match_parent"

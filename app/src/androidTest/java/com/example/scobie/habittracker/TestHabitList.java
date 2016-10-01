@@ -32,8 +32,6 @@ public class TestHabitList extends TestCase{
         assertTrue("Test habit contains", habitList.contains(testHabit));
     }
 
-
-
     public void testRemoveHabit(){
         HabitList habitList = new HabitList();
         String habitName = "a habit";
