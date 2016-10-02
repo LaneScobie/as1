@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_229a382a6480ffcc0742d342dddeb45652cd5c38.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_ecaa7a6ea51c6a8f3c74cab5d40c546040dd378d.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_5fd1a52a94be84319eb862fb443e69554debe6f6.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e343460e6b67203860a1922d942edec34503252">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_79510b8f601fb28e4d35793be9ce5d092227e5cc.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_d97827454176e70a435d9e1899f8ac51d55158cf.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_14ff0cc00aa05579e4b22338d7bdfa63d2dd84e8.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/gson-2.7_af0f059af5a8f5a1eaa59bf2be2b38ed9883876d.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_89b9beffce85d56cf10d6a2dd34b1c676141cdbf.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_1bd7c67b4aedbdbd7356fded5a7d84eb9dd21407.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_cc7b93cc81d90ede82ecfe0a0144e6f145f470e3.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_d4cf3319bd649506b296fbccb4b0fea45c633638.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_09b10b4f57bc11d6fff30554f62afbff99589edf.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_42d8478fbb8478157c641ebb29188b747e4c43c6.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_0e4be169a9afe008faab6166ced91ea146b7a922.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="38bb836607a64ffe8291277ccdd9d104bf6359f0">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/instant-run_3404b6fa034c9f377ef3582284ac9a9b7ae26ff5.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_a2fa831985cd7a7b381f8a6189ddc78070cc33ac.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_1ed16811ba359098e8012cfde68be3a51b44ba57.jar" />
+    </item>
+    <item
+        jar="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_5068ce9a671bb697e27c42ea1ca50cfe3d367731.jar" />
+    </item>
+
+</items>

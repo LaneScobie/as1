@@ -3,10 +3,15 @@ package com.example.scobie.habittracker;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -48,6 +53,33 @@ public class MainHabitActivity extends Activity {
         });
 
     }
+    public boolean onCreateContextMenu(MenuItem menu){
+        getMenuInflater().inflate(R.menu.main, (Menu) menu);
+        return true;
+    }
+    public void CompleteHabit(MenuItem menu){
+        Toast.makeText(this,"Complete Habit", Toast.LENGTH_SHORT).show();
+    }
+    public void habitRecord(MenuItem menu){
+        Toast.makeText(this,"Habit Record", Toast.LENGTH_SHORT).show();
+    }
+    public void DeleteHabit(MenuItem menu){
+        Toast.makeText(this,"Delete Habit", Toast.LENGTH_SHORT).show();
+    }
+
+    //Open menu on click of listView
+    //code from:http://stackoverflow.com/questions/6435073/android-context-menu-on-single-click Oct. 1 2016
+    private void addOnClickListener(){
+        oldHabitList.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id)
+            {
+                view.showContextMenu();
+            }
+        });
+    }
+
+
     //code taken from:http://stackoverflow.com/questions/10407159/how-to-manage-startactivityforresult-on-android Oct. 1/2016
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
