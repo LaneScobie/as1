@@ -20,7 +20,10 @@
             android:name=".AddHabitActivity"
             android:label="@string/add_habit">
         </activity>
-
+        <activity
+            android:name=".HabitRecordActivity"
+            android:label="@string/habit_record">
+        </activity>
 
     </application>
 

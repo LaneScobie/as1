@@ -3,14 +3,18 @@ package com.example.scobie.habittracker;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -25,10 +29,12 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainHabitActivity extends Activity {
     private static final String FILENAME= "file.sav";
     private ListView oldHabitList;
+    //private Habit habit = new Habit();
     private ArrayList<Habit> habitList = new ArrayList<Habit>();
     private ArrayAdapter<Habit> adapter;
 
@@ -38,7 +44,10 @@ public class MainHabitActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_habit);
 
+
         oldHabitList = (ListView) findViewById(R.id.oldHabitList);
+        registerForContextMenu(oldHabitList);
+
         Button AddMenuButton = (Button) findViewById(R.id.AddMenuButton);
 
 
@@ -47,39 +56,61 @@ public class MainHabitActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainHabitActivity.this, AddHabitActivity.class);
-                //startActivity(intent);
                 startActivityForResult(intent, 1);
             }
         });
 
     }
-    public boolean onCreateContextMenu(MenuItem menu){
-        getMenuInflater().inflate(R.menu.main, (Menu) menu);
+    //Make contextMenu on ListView items
+    //Code from:http://stackoverflow.com/questions/18632331/using-contextmenu-with-listview-in-android Oct.1/2016
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
+        if (v.getId()==R.id.oldHabitList){
+            //ListView  = (ListView) v;
+
+            menu.add("Complete");
+            menu.add("Record");
+            menu.add("Delete");
+        }
+    }
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if (item.getTitle() == "Complete") {
+            //Add to record (which adds to count)
+            Toast.makeText(MainHabitActivity.this, "Habit Completed", Toast.LENGTH_SHORT).show();
+            AdapterView.AdapterContextMenuInfo info= (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+            int position= info.position;
+            Habit obj = habitList.get(position);
+
+            //Log.d("Habit looks like", "Name: " + habitList.get(position));
+            obj.completeHabit(); //should maybe work? -- atleast not crash...
+            //adapter.notifyDataSetChanged();
+            //saveInFile();
+
+        } else if (item.getTitle()=="Record") {
+            Toast.makeText(MainHabitActivity.this, "Accessing Records", Toast.LENGTH_SHORT).show();
+            //opens habitREcordActivity--
+            //have to pass which habit...
+            Intent intent = new Intent(MainHabitActivity.this, HabitRecordActivity.class);
+            AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+            int position= info.position;
+            Habit obj = habitList.get(position);
+
+
+            startActivity(intent);
+            finish();
+
+        } else if(item.getTitle()=="Delete"){
+            Toast.makeText(MainHabitActivity.this, "Habit Deleted", Toast.LENGTH_SHORT).show();
+            habitList.remove(item.getItemId());
+            adapter.notifyDataSetChanged();
+            saveInFile();
+
+        } else {
+            return false;
+        }
         return true;
     }
-    public void CompleteHabit(MenuItem menu){
-        Toast.makeText(this,"Complete Habit", Toast.LENGTH_SHORT).show();
-    }
-    public void habitRecord(MenuItem menu){
-        Toast.makeText(this,"Habit Record", Toast.LENGTH_SHORT).show();
-    }
-    public void DeleteHabit(MenuItem menu){
-        Toast.makeText(this,"Delete Habit", Toast.LENGTH_SHORT).show();
-    }
-
-    //Open menu on click of listView
-    //code from:http://stackoverflow.com/questions/6435073/android-context-menu-on-single-click Oct. 1 2016
-    private void addOnClickListener(){
-        oldHabitList.setOnItemClickListener(new AdapterView.OnItemClickListener()
-        {
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id)
-            {
-                view.showContextMenu();
-            }
-        });
-    }
-
-
     //code taken from:http://stackoverflow.com/questions/10407159/how-to-manage-startactivityforresult-on-android Oct. 1/2016
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -96,10 +127,7 @@ public class MainHabitActivity extends Activity {
                 //i guess nothing happened
             }
         }
-
-
     }
-
 
     @Override
     protected void onStart() {
@@ -110,7 +138,7 @@ public class MainHabitActivity extends Activity {
     }
 
     private void loadFromFile() {
-        ArrayList<String> tweets = new ArrayList<String>();
+        ArrayList<String> habitList = new ArrayList<String>();
         try {
             FileInputStream fis = openFileInput(FILENAME);
             BufferedReader in = new BufferedReader(new InputStreamReader(fis));
@@ -149,9 +177,5 @@ public class MainHabitActivity extends Activity {
 
         }
     }
-
-
-
-
 }
 

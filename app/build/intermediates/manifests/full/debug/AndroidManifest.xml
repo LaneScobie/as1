@@ -25,6 +25,10 @@
             android:name="com.example.scobie.habittracker.AddHabitActivity"
             android:label="@string/add_habit" >
         </activity>
+        <activity
+            android:name="com.example.scobie.habittracker.HabitRecordActivity"
+            android:label="@string/habit_record" >
+        </activity>
     </application>
 
 </manifest>
