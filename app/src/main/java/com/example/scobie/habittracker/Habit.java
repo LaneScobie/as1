@@ -16,7 +16,20 @@ public class Habit  {
         this.habitName= name;
     }
 
+    public Habit() {
+
+    }
+
+    public void setHabitName(String habitName) {
+        this.habitName = habitName;
+    }
+
     public String getHabitName() {
         return habitName;
     }
+    @Override
+    public String toString() {
+        return this.habitName;
+    }
+
 }

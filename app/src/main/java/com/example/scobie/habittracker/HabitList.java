@@ -13,7 +13,6 @@ public class HabitList {
         habitList = new ArrayList<Habit>();
     }
 
-
     public Collection<Habit> getHabits(){
         return habitList;
     }
@@ -25,7 +24,6 @@ public class HabitList {
     public void removeHabit(Habit testHabit) {
         habitList.remove(testHabit);
     }
-
 
     public boolean contains(Habit testHabit) {
         return habitList.contains(testHabit);
