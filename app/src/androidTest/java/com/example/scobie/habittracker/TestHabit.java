@@ -11,13 +11,12 @@ public class TestHabit extends TestCase {
         Habit habit = new Habit(habitName);
         assertTrue("Habit name is not equal", habitName.equals(habit.getHabitName()));
     }
+
     public void testCompleteHabit(){
         String habitName = "a habit";
         Habit habit = new Habit(habitName);
         habit.completeHabit();
-        assertTrue("Record added",habit.getHabitCount()==1);
-
-
+        assertEquals("Please...", habit.getHabitCount(), 1);
     }
 
 

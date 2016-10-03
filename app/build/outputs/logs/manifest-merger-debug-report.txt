@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/Andr
 		INJECTED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:5:5-28:19
+ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:24.2.0] /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/AndroidManifest.xml:25:5-20
@@ -62,17 +62,17 @@ ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/Andr
 	android:name
 		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:16:27-74
 activity#com.example.scobie.habittracker.AddHabitActivity
-ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:19:9-22:20
+ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:20:9-23:20
 	android:label
-		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:21:13-46
+		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:22:13-46
 	android:name
-		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:21:13-45
 activity#com.example.scobie.habittracker.HabitRecordActivity
-ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:23:9-26:20
+ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:25:9-28:20
 	android:label
-		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:25:13-49
+		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:27:13-49
 	android:name
-		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:24:13-48
+		ADDED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml:26:13-48
 uses-sdk
 INJECTED from /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/LaneScobie/Desktop/HabitTracker/HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/AndroidManifest.xml:21:5-23:78

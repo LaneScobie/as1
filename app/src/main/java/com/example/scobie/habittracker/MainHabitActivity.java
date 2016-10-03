@@ -27,6 +27,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +35,6 @@ import java.util.List;
 public class MainHabitActivity extends Activity {
     private static final String FILENAME= "file.sav";
     private ListView oldHabitList;
-    //private Habit habit = new Habit();
     private ArrayList<Habit> habitList = new ArrayList<Habit>();
     private ArrayAdapter<Habit> adapter;
 
@@ -81,9 +81,8 @@ public class MainHabitActivity extends Activity {
             AdapterView.AdapterContextMenuInfo info= (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
             int position= info.position;
             Habit obj = habitList.get(position);
+            obj.completeHabit();
 
-            //Log.d("Habit looks like", "Name: " + habitList.get(position));
-            obj.completeHabit(); //should maybe work? -- atleast not crash...
             //adapter.notifyDataSetChanged();
             //saveInFile();
 
@@ -95,6 +94,7 @@ public class MainHabitActivity extends Activity {
             AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
             int position= info.position;
             Habit obj = habitList.get(position);
+            intent.putExtra("Habit", obj);
 
 
             startActivity(intent);

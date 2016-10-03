@@ -29,6 +29,10 @@ public class HabitList {
         return habitList.contains(testHabit);
     }
 
+    public Habit getHabit(int index){
+        return habitList.get(index);
+    }
+
     public int size() {
         return habitList.size();
     }

@@ -35,7 +35,6 @@ public class HabitRecordActivity extends Activity {
     private ListView recordList;
     private TextView habitName;
     private TextView count;
-    private Habit habit = new Habit();
     private ArrayList<Date> records = new ArrayList<Date>();
     private ArrayAdapter<Date> adapter;
 
@@ -43,9 +42,6 @@ public class HabitRecordActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.habit_record);
-        Bundle habit= getIntent().getExtras(); //get habit from
-
-
         habitName = (TextView) findViewById(R.id.HabitRecordTextView);
         count = (TextView) findViewById(R.id.countTextView);
         recordList = (ListView) findViewById(R.id.HabitRecordListView);
@@ -53,6 +49,7 @@ public class HabitRecordActivity extends Activity {
         //registerForContextMenu(recordList);
 
     }
+
 /*
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -69,7 +66,7 @@ public class HabitRecordActivity extends Activity {
     public boolean onContextItemSelected(MenuItem item) {
 
         if (item.getTitle() == "Delete") {
-            Toast.makeText(HabitRecordActivity.this, "Habit Deleted", Toast.LENGTH_SHORT).show();
+            Toast.makeText(HabitRecordActivity.this, "Record Deleted", Toast.LENGTH_SHORT).show();
             records.remove(item.getItemId());
             adapter.notifyDataSetChanged();
             saveInFile();
@@ -84,12 +81,13 @@ public class HabitRecordActivity extends Activity {
     protected void onStart() {
         super.onStart();
 
+        Habit habit= (Habit) getIntent().getSerializableExtra("Habit");
         habitName.setText(habit.getHabitName());
         count.setText(String.valueOf(habit.getHabitCount()));
 
-        //adapter = new ArrayAdapter<Date>(this,
-                //R.layout.list_item, records);
-        //recordList.setAdapter(adapter);
+        adapter = new ArrayAdapter<Date>(this,
+                R.layout.list_item, records);
+        recordList.setAdapter(adapter);
 
     }
 
