@@ -25,6 +25,7 @@ public class Habit implements Serializable{
         this.habitName= name;
     }
 
+    //Name is set on create-- did not do an Edit Habit option
     public void setHabitName(String habitName) {
         this.habitName = habitName;
     }
@@ -32,6 +33,8 @@ public class Habit implements Serializable{
     public String getHabitName() {
         return habitName;
     }
+
+    //Admittedly Unneccesary
     public void setHabitCount(){
         count= record.size();
     }
@@ -51,7 +54,6 @@ public class Habit implements Serializable{
     public void removeRecord(Date r){
         record.remove(r);
     }
-
 
     @Override
     public String toString() {

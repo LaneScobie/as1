@@ -28,9 +28,8 @@ public class AddHabitActivity extends Activity {
             @Override
             public void onClick(View view) {
                 String text= habitInput.getText().toString();
-                //Will need to pass more things like the days and start date of habit...to be continued
 
-
+                //Pass back information to mainActivity where Habit is made
                 Intent intent= new Intent();
                 intent.putExtra("name",text);
                 setResult(Activity.RESULT_OK, intent);

@@ -31,7 +31,7 @@ import java.util.Date;
  * Created by scobie on 9/30/16.
  */
 public class HabitRecordActivity extends Activity {
-    private static final String FILENAME= "file1.sav";
+    private static final String FILENAME= "records.sav";
     private ListView recordList;
     private TextView habitName;
     private TextView count;
@@ -48,12 +48,7 @@ public class HabitRecordActivity extends Activity {
         recordList = (ListView) findViewById(R.id.HabitRecordListView);
 
         registerForContextMenu(recordList);
-
     }
-
-    //not returning to previous activity...
-
-
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -72,7 +67,7 @@ public class HabitRecordActivity extends Activity {
             Toast.makeText(HabitRecordActivity.this, "Record Deleted", Toast.LENGTH_SHORT).show();
             records.remove(item.getItemId());
             adapter.notifyDataSetChanged();
-            saveInFile();
+            saveInRecords();
         }else{
             return false;
         }
@@ -83,6 +78,7 @@ public class HabitRecordActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        loadFromRecords();
 
         Habit habit= (Habit) getIntent().getSerializableExtra("Habit");
         records = habit.getRecord();
@@ -94,8 +90,8 @@ public class HabitRecordActivity extends Activity {
         recordList.setAdapter(adapter);
 
     }
-//adapter form lonelyTwitter
-    private void loadFromFile() {
+//adapted from lonelyTwitter
+    private void loadFromRecords() {
         ArrayList<Date> records = new ArrayList<Date>();
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -118,9 +114,8 @@ public class HabitRecordActivity extends Activity {
         }
     }
 
-    private void saveInFile() {
+    private void saveInRecords() {
         try {
-
             FileOutputStream fos = openFileOutput(FILENAME, 0);
             OutputStreamWriter writer = new OutputStreamWriter(fos);
             Gson gson = new Gson();
@@ -134,7 +129,6 @@ public class HabitRecordActivity extends Activity {
             // TODO Auto-generated catch block
             e.printStackTrace();
             throw new RuntimeException();
-
         }
     }
 

@@ -30,6 +30,7 @@ import java.io.OutputStreamWriter;
 import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class MainHabitActivity extends Activity {
@@ -48,9 +49,9 @@ public class MainHabitActivity extends Activity {
         oldHabitList = (ListView) findViewById(R.id.oldHabitList);
         registerForContextMenu(oldHabitList);
 
+
+        //Takes you to Add Habit Screen
         Button AddMenuButton = (Button) findViewById(R.id.AddMenuButton);
-
-
         AddMenuButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -88,8 +89,7 @@ public class MainHabitActivity extends Activity {
 
         } else if (item.getTitle()=="Record") {
             Toast.makeText(MainHabitActivity.this, "Accessing Records", Toast.LENGTH_SHORT).show();
-            //opens habitREcordActivity--
-            //have to pass which habit...
+            //opens habitREcordActivity--have to pass which habit
             Intent intent = new Intent(MainHabitActivity.this, HabitRecordActivity.class);
             AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
             int position= info.position;
@@ -98,9 +98,10 @@ public class MainHabitActivity extends Activity {
 
 
             startActivity(intent);
-            //finish(); --This Kills this activity... don't make that mistake twice...
+            //finish(); --Kills this activity... don't make that mistake twice...
 
         } else if(item.getTitle()=="Delete"){
+            //Delete Habit from List and update
             Toast.makeText(MainHabitActivity.this, "Habit Deleted", Toast.LENGTH_SHORT).show();
             habitList.remove(item.getItemId());
             adapter.notifyDataSetChanged();
@@ -112,6 +113,7 @@ public class MainHabitActivity extends Activity {
         return true;
     }
     //code taken from:http://stackoverflow.com/questions/10407159/how-to-manage-startactivityforresult-on-android Oct. 1/2016
+    //Get results back from Add Habit Screen and update list
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         if (requestCode==1){
@@ -133,6 +135,7 @@ public class MainHabitActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        loadFromFile();
         adapter = new ArrayAdapter<Habit>(this,
                 R.layout.list_item, habitList);
         oldHabitList.setAdapter(adapter);
@@ -179,5 +182,6 @@ public class MainHabitActivity extends Activity {
 
         }
     }
+
 }
 
