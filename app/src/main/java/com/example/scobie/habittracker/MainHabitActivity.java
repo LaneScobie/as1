@@ -129,7 +129,6 @@ public class MainHabitActivity extends Activity {
                 //i guess nothing happened
             }
         }
-
     }
 
     @Override

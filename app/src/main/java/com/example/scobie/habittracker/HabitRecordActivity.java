@@ -78,7 +78,7 @@ public class HabitRecordActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        loadFromRecords();
+        //loadFromRecords();
 
         Habit habit= (Habit) getIntent().getSerializableExtra("Habit");
         records = habit.getRecord();
