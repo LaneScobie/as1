@@ -31,7 +31,7 @@ import java.util.Date;
  * Created by scobie on 9/30/16.
  */
 public class HabitRecordActivity extends Activity {
-    private static final String FILENAME= "file.sav";
+    private static final String FILENAME= "file1.sav";
     private ListView recordList;
     private TextView habitName;
     private TextView count;
@@ -51,6 +51,9 @@ public class HabitRecordActivity extends Activity {
 
     }
 
+    //not returning to previous activity...
+
+
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -58,7 +61,6 @@ public class HabitRecordActivity extends Activity {
             ListView recordList = (ListView) v;
             AdapterView.AdapterContextMenuInfo acmi = (AdapterView.AdapterContextMenuInfo) menuInfo;
             Date obj = (Date) recordList.getItemAtPosition(acmi.position);
-
             menu.add("Delete");
         }
     }
@@ -70,7 +72,7 @@ public class HabitRecordActivity extends Activity {
             Toast.makeText(HabitRecordActivity.this, "Record Deleted", Toast.LENGTH_SHORT).show();
             records.remove(item.getItemId());
             adapter.notifyDataSetChanged();
-            //saveInFile();
+            saveInFile();
         }else{
             return false;
         }
@@ -92,15 +94,17 @@ public class HabitRecordActivity extends Activity {
         recordList.setAdapter(adapter);
 
     }
-/*
+//adapter form lonelyTwitter
     private void loadFromFile() {
         ArrayList<Date> records = new ArrayList<Date>();
         try {
             FileInputStream fis = openFileInput(FILENAME);
             BufferedReader in = new BufferedReader(new InputStreamReader(fis));
             Gson gson = new Gson();
+
             //Code taken from http://stackoverflow.com/questions/12384064/gson-convert-from-json-to-a-typed-arraylistt Sept,22. 2016
             Type listType = new TypeToken<ArrayList<Date>>(){}.getType();
+
             records = gson.fromJson(in, listType);
 
         } catch (FileNotFoundException e) {
@@ -132,6 +136,6 @@ public class HabitRecordActivity extends Activity {
             throw new RuntimeException();
 
         }
-    }*/
+    }
 
 }

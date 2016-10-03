@@ -1,12 +1,13 @@
 package com.example.scobie.habittracker;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
 /**
  * Created by LaneScobie on 16-10-01.
  */
-public class HabitList {
+public class HabitList implements Serializable {
     protected  ArrayList<Habit> habitList;
 
     public HabitList(){

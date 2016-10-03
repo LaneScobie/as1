@@ -98,7 +98,7 @@ public class MainHabitActivity extends Activity {
 
 
             startActivity(intent);
-            finish();
+            //finish(); --This Kills this activity... don't make that mistake twice...
 
         } else if(item.getTitle()=="Delete"){
             Toast.makeText(MainHabitActivity.this, "Habit Deleted", Toast.LENGTH_SHORT).show();
@@ -127,6 +127,7 @@ public class MainHabitActivity extends Activity {
                 //i guess nothing happened
             }
         }
+
     }
 
     @Override
@@ -137,6 +138,7 @@ public class MainHabitActivity extends Activity {
         oldHabitList.setAdapter(adapter);
     }
 
+    //Code from lonelyTwitter app
     private void loadFromFile() {
         ArrayList<String> habitList = new ArrayList<String>();
         try {
