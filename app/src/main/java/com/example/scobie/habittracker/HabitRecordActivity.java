@@ -44,13 +44,14 @@ public class HabitRecordActivity extends Activity {
         setContentView(R.layout.habit_record);
         habitName = (TextView) findViewById(R.id.HabitRecordTextView);
         count = (TextView) findViewById(R.id.countTextView);
+
         recordList = (ListView) findViewById(R.id.HabitRecordListView);
 
-        //registerForContextMenu(recordList);
+        registerForContextMenu(recordList);
 
     }
 
-/*
+
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         if (v.getId() == R.id.HabitRecordListView) {
@@ -69,19 +70,20 @@ public class HabitRecordActivity extends Activity {
             Toast.makeText(HabitRecordActivity.this, "Record Deleted", Toast.LENGTH_SHORT).show();
             records.remove(item.getItemId());
             adapter.notifyDataSetChanged();
-            saveInFile();
+            //saveInFile();
         }else{
             return false;
         }
         return true;
     }
-    */
+
 
     @Override
     protected void onStart() {
         super.onStart();
 
         Habit habit= (Habit) getIntent().getSerializableExtra("Habit");
+        records = habit.getRecord();
         habitName.setText(habit.getHabitName());
         count.setText(String.valueOf(habit.getHabitCount()));
 
@@ -90,7 +92,7 @@ public class HabitRecordActivity extends Activity {
         recordList.setAdapter(adapter);
 
     }
-
+/*
     private void loadFromFile() {
         ArrayList<Date> records = new ArrayList<Date>();
         try {
@@ -130,6 +132,6 @@ public class HabitRecordActivity extends Activity {
             throw new RuntimeException();
 
         }
-    }
+    }*/
 
 }
