@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">scobie-HabitTracker</string>
+    <string name="AddHabit">Add Habit</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="finish">Finish</string>
+    <string name="habits">Habits</string>
+    <string name="complete">Complete</string>
+    <string name="delete">Delete</string>
+    <string name="habitname">Habitname</string>
+    <string name="record">Record</string>
+    <string name="habit_record">Habit Record</string>
+    <string name="count">Count:</string>
+    <string name="dates_completed">Dates Completed</string>
+
+
+</resources>
